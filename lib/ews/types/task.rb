@@ -6,6 +6,7 @@ module Viewpoint::EWS::Types
     
     TASK_KEY_PATHS = {
       complete?:   [:is_complete, :text],
+      completed_at:   [:complete_date, :text],
       recurring?:   [:is_recurring, :text],
       start_date:   [:start_date, :text],
       due_date:   [:end_date, :text],
